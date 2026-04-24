@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 49924811}
   - component: {fileID: 49924812}
+  - component: {fileID: 49924813}
   m_Layer: 0
   m_Name: Right
   m_TagString: Untagged
@@ -200,7 +201,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -9028263428422392593, guid: d31ea3afb3b195642bae96e2defe26c1, type: 3}
+  m_Sprite: {fileID: 3351915519331814220, guid: d0a3aeacf14cfad4087d131cc61dea31, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -210,6 +211,25 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &49924813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49924810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa2dbed33c2218546a1ce2f53720f098, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimatedSpriteRenderer
+  idleSprite: {fileID: -9028263428422392593, guid: d31ea3afb3b195642bae96e2defe26c1, type: 3}
+  animationSprites:
+  - {fileID: 3351915519331814220, guid: d0a3aeacf14cfad4087d131cc61dea31, type: 3}
+  - {fileID: -2672651989230020802, guid: d0a3aeacf14cfad4087d131cc61dea31, type: 3}
+  animationTime: 0.25
+  loop: 1
+  idle: 1
 --- !u!1 &319887149
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,6 +240,7 @@ GameObject:
   m_Component:
   - component: {fileID: 319887150}
   - component: {fileID: 319887151}
+  - component: {fileID: 319887152}
   m_Layer: 0
   m_Name: Left
   m_TagString: Untagged
@@ -301,6 +322,25 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &319887152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319887149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa2dbed33c2218546a1ce2f53720f098, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimatedSpriteRenderer
+  idleSprite: {fileID: -6117790948069172312, guid: d31ea3afb3b195642bae96e2defe26c1, type: 3}
+  animationSprites:
+  - {fileID: 8977788106072417294, guid: d0a3aeacf14cfad4087d131cc61dea31, type: 3}
+  - {fileID: -8100048029825750521, guid: d0a3aeacf14cfad4087d131cc61dea31, type: 3}
+  animationTime: 0.25
+  loop: 1
+  idle: 1
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,6 +572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1552323595}
   - component: {fileID: 1552323596}
+  - component: {fileID: 1552323597}
   m_Layer: 0
   m_Name: Down
   m_TagString: Untagged
@@ -613,6 +654,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1552323597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552323594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa2dbed33c2218546a1ce2f53720f098, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimatedSpriteRenderer
+  idleSprite: {fileID: -8900945150742925100, guid: d31ea3afb3b195642bae96e2defe26c1, type: 3}
+  animationSprites: []
+  animationTime: 0.25
+  loop: 1
+  idle: 1
 --- !u!1 &1786257050
 GameObject:
   m_ObjectHideFlags: 0
@@ -623,6 +681,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1786257051}
   - component: {fileID: 1786257052}
+  - component: {fileID: 1786257053}
   m_Layer: 0
   m_Name: Jump
   m_TagString: Untagged
@@ -704,6 +763,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1786257053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786257050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa2dbed33c2218546a1ce2f53720f098, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimatedSpriteRenderer
+  idleSprite: {fileID: 0}
+  animationSprites: []
+  animationTime: 0.25
+  loop: 1
+  idle: 1
 --- !u!1 &1855207836
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,6 +789,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1855207837}
+  - component: {fileID: 1855207838}
+  - component: {fileID: 1855207840}
+  - component: {fileID: 1855207839}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -740,6 +819,91 @@ Transform:
   - {fileID: 1786257051}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1855207838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855207836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7ba927369a5df040a52ae093df120cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  speed: 5
+  inputUp: 119
+  inputDown: 115
+  inputLeft: 97
+  inputRight: 100
+  spriteRendererUp: {fileID: 1990249937}
+  spriteRendererDown: {fileID: 1552323597}
+  spriteRendererLeft: {fileID: 319887152}
+  spriteRendererRight: {fileID: 49924813}
+  spriteRendererDeath: {fileID: 0}
+--- !u!58 &1855207839
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855207836}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
+--- !u!50 &1855207840
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855207836}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1990249934
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,6 +914,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1990249935}
   - component: {fileID: 1990249936}
+  - component: {fileID: 1990249937}
   m_Layer: 0
   m_Name: Up
   m_TagString: Untagged
@@ -831,6 +996,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1990249937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990249934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa2dbed33c2218546a1ce2f53720f098, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  idleSprite: {fileID: 1208875435099577948, guid: d31ea3afb3b195642bae96e2defe26c1, type: 3}
+  animationSprites: []
+  animationTime: 0.25
+  loop: 1
+  idle: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

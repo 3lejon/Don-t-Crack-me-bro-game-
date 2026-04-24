@@ -4,7 +4,7 @@ using UnityEngine;
 public class MovementController : MonoBehaviour
 {
     private Rigidbody2D rb;
-    private Vector2 direction = Vector2.down;
+    private Vector2 direction = Vector2.up;
     public float speed = 5f;
 
     [Header("Input")]// These variables are related to the input for movement in different directions
