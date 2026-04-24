@@ -1,0 +1,15 @@
+# Unity generated folders
+Library/
+Temp/
+Logs/
+UserSettings/
+
+# Visual Studio / Rider
+.vscode/
+*.csproj
+*.sln
+*.slnx
+
+# OS files
+.DS_Store
+Thumbs.db
