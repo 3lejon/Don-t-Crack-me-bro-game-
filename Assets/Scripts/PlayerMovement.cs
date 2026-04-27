@@ -34,7 +34,8 @@ private void Awake()
 {
     rb = GetComponent<Rigidbody2D>();
 
-    activeSpriteRenderer = spriteRendererRight;
+    activeSpriteRenderer = spriteRendererIdle;
+     spriteRendererLeft.enabled = false;
 }
     
 

@@ -419,17 +419,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1933657170 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7984140880337699551, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
-  m_PrefabInstance: {fileID: 2543804723675076269}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa2dbed33c2218546a1ce2f53720f098, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AnimatedSpriteRenderer
 --- !u!1001 &2543804723675076269
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -438,50 +427,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1741958434530767668, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
-      propertyPath: idle
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3229525086776964308, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
-      propertyPath: m_Name
-      value: 'Jump '
-      objectReference: {fileID: 0}
     - target: {fileID: 3667669456577997440, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
-      propertyPath: inputJump
-      value: 273
-      objectReference: {fileID: 0}
-    - target: {fileID: 3667669456577997440, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
-      propertyPath: inputLeft
-      value: 276
-      objectReference: {fileID: 0}
-    - target: {fileID: 3667669456577997440, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
-      propertyPath: jumpForce
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3667669456577997440, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
-      propertyPath: groundDrag
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3667669456577997440, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
-      propertyPath: inputRight
-      value: 275
-      objectReference: {fileID: 0}
-    - target: {fileID: 3667669456577997440, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
-      propertyPath: gravityScale
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3667669456577997440, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
-      propertyPath: spriteRendererJump
+      propertyPath: spriteRendererIdle
       value: 
-      objectReference: {fileID: 1933657170}
-    - target: {fileID: 7020462289732862636, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 8539088214367574709, guid: d0a3aeacf14cfad4087d131cc61dea31, type: 3}
-    - target: {fileID: 7517279821373298670, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
-      propertyPath: idle
-      value: 0
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2543804723675076270}
     - target: {fileID: 7627217845025053136, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -522,28 +471,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7749139384476376590, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
-      propertyPath: m_GravityScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984140880337699551, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
-      propertyPath: idle
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984140880337699551, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
-      propertyPath: idleSprite
-      value: 
-      objectReference: {fileID: 8539088214367574709, guid: d0a3aeacf14cfad4087d131cc61dea31, type: 3}
-    - target: {fileID: 7984140880337699551, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
-      propertyPath: animationSprites.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7984140880337699551, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
-      propertyPath: 'animationSprites.Array.data[0]'
-      value: 
-      objectReference: {fileID: 8539088214367574709, guid: d0a3aeacf14cfad4087d131cc61dea31, type: 3}
     - target: {fileID: 7993647977016818896, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7993647977016818896, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -551,6 +484,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
+--- !u!114 &2543804723675076270 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6822725454235923769, guid: 73674910625842e4e9aab47fa0f08cec, type: 3}
+  m_PrefabInstance: {fileID: 2543804723675076269}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa2dbed33c2218546a1ce2f53720f098, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimatedSpriteRenderer
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
