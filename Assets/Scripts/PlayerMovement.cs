@@ -8,8 +8,8 @@ public class MovementController : MonoBehaviour
     public float speed = 5f;
 
     [Header("Input")]// These variables are related to the input for movement in different directions
-    public KeyCode inputUp = KeyCode.W;
-    public KeyCode inputDown = KeyCode.S;
+    
+    
     public KeyCode inputLeft = KeyCode.A;
     public KeyCode inputRight = KeyCode.D;
 
@@ -29,11 +29,8 @@ public class MovementController : MonoBehaviour
 
     private void Update()// This method is called every frame to check for input and update the direction and active sprite renderer accordingly
     {
-        if (Input.GetKey(inputUp)) {
-            SetDirection(Vector2.up, spriteRendererUp);
-        } else if (Input.GetKey(inputDown)) {
-            SetDirection(Vector2.down, spriteRendererDown);
-        } else if (Input.GetKey(inputLeft)) {
+        
+        if (Input.GetKey(inputLeft)) {
             SetDirection(Vector2.left, spriteRendererLeft);
         } else if (Input.GetKey(inputRight)) {
             SetDirection(Vector2.right, spriteRendererRight);
