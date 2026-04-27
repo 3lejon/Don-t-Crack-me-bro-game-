@@ -22,18 +22,14 @@ public class MovementController : MonoBehaviour
     public float groundDrag = 0.3f;
 
     [Header("Sprites")]// These variables are related to the different sprite renderers for each direction of movement
-    public AnimatedSpriteRenderer spriteRendererUp;
-    public AnimatedSpriteRenderer spriteRendererDown;
+    public AnimatedSpriteRenderer spriteRendererJump;
+   
     public AnimatedSpriteRenderer spriteRendererLeft;
     public AnimatedSpriteRenderer spriteRendererRight;
      public AnimatedSpriteRenderer spriteRendererDeath;
     private AnimatedSpriteRenderer activeSpriteRenderer;
 
-    private void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        activeSpriteRenderer = spriteRendererDown;
-    }
+    
 
     private void Update()// This method is called every frame to check for input and update the direction and active sprite renderer accordingly
     {
@@ -42,7 +38,13 @@ public class MovementController : MonoBehaviour
             SetDirection(Vector2.left, spriteRendererLeft);
         } else if (Input.GetKey(inputRight)) {
             SetDirection(Vector2.right, spriteRendererRight);
-        } else {
+        }
+        else if (Input.GetKeyDown(inputJump) && isGrounded)
+        {
+            SetDirection(Vector2.up, spriteRendererJump);
+        }
+        else
+        {
             SetDirection(Vector2.zero, activeSpriteRenderer);
         }
 
@@ -79,8 +81,7 @@ public class MovementController : MonoBehaviour
     {
         direction = newDirection;
 
-        spriteRendererUp.enabled = spriteRenderer == spriteRendererUp;
-        spriteRendererDown.enabled = spriteRenderer == spriteRendererDown;
+        
         spriteRendererLeft.enabled = spriteRenderer == spriteRendererLeft;
         spriteRendererRight.enabled = spriteRenderer == spriteRendererRight;
 
