@@ -12,6 +12,14 @@ public class MovementController : MonoBehaviour
     
     public KeyCode inputLeft = KeyCode.A;
     public KeyCode inputRight = KeyCode.D;
+    public KeyCode inputJump = KeyCode.Space;
+
+    [Header("Jumping")]
+    public float jumpForce = 5f;
+    public float gravityScale = 1.5f;
+    private float verticalVelocity = 0f;
+    private bool isGrounded = false;
+    public float groundDrag = 0.3f;
 
     [Header("Sprites")]// These variables are related to the different sprite renderers for each direction of movement
     public AnimatedSpriteRenderer spriteRendererUp;
@@ -37,12 +45,32 @@ public class MovementController : MonoBehaviour
         } else {
             SetDirection(Vector2.zero, activeSpriteRenderer);
         }
+
+        // Handle jump input
+        if (Input.GetKeyDown(inputJump) && isGrounded)
+        {
+            verticalVelocity = jumpForce;
+            isGrounded = false;
+        }
     }
 
     private void FixedUpdate()
     {
+        // Check if player is grounded
+        CheckGround();
+
+        // Apply gravity
+        verticalVelocity -= Physics2D.gravity.y * gravityScale * Time.fixedDeltaTime;
+
+        // Apply ground drag to reduce velocity when grounded
+        if (isGrounded && verticalVelocity < 0)
+        {
+            verticalVelocity *= (1f - groundDrag);
+        }
+
         Vector2 position = rb.position;
         Vector2 translation = speed * Time.fixedDeltaTime * direction;
+        translation.y = verticalVelocity * Time.fixedDeltaTime;
 
         rb.MovePosition(position + translation);
     }
@@ -58,6 +86,19 @@ public class MovementController : MonoBehaviour
 
         activeSpriteRenderer = spriteRenderer;
         activeSpriteRenderer.idle = direction == Vector2.zero;
+    }
+
+    private void CheckGround()
+    {
+        // Cast a ray downward to check if grounded
+        RaycastHit2D hit = Physics2D.Raycast(rb.position, Vector2.down, 0.1f);
+        isGrounded = hit.collider != null;
+
+        // Reset vertical velocity when hitting the ground
+        if (isGrounded && verticalVelocity <= 0)
+        {
+            verticalVelocity = 0f;
+        }
     }
 
    
