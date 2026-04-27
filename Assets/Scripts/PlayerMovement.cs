@@ -29,6 +29,12 @@ public class MovementController : MonoBehaviour
      public AnimatedSpriteRenderer spriteRendererDeath;
     private AnimatedSpriteRenderer activeSpriteRenderer;
 
+private void Awake()
+{
+    rb = GetComponent<Rigidbody2D>();
+
+    activeSpriteRenderer = spriteRendererRight;
+}
     
 
     private void Update()// This method is called every frame to check for input and update the direction and active sprite renderer accordingly
