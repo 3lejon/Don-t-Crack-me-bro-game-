@@ -27,6 +27,7 @@ public class MovementController : MonoBehaviour
     public AnimatedSpriteRenderer spriteRendererLeft;
     public AnimatedSpriteRenderer spriteRendererRight;
      public AnimatedSpriteRenderer spriteRendererDeath;
+     public AnimatedSpriteRenderer spriteRendererIdle;
     private AnimatedSpriteRenderer activeSpriteRenderer;
 
 private void Awake()
@@ -90,6 +91,8 @@ private void Awake()
         
         spriteRendererLeft.enabled = spriteRenderer == spriteRendererLeft;
         spriteRendererRight.enabled = spriteRenderer == spriteRendererRight;
+        spriteRendererJump.enabled = spriteRenderer == spriteRendererJump;
+        spriteRendererIdle.enabled = spriteRenderer == spriteRendererIdle;
 
         activeSpriteRenderer = spriteRenderer;
         activeSpriteRenderer.idle = direction == Vector2.zero;
