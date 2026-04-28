@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 1748550728893499214}
   - component: {fileID: 2956131453521743837}
   - component: {fileID: 3762096901411970572}
-  - component: {fileID: 1193515339456575752}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -180,24 +179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfeb5f981a068a349b05e891adb834cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  thrustForce: 40
-  rotationSpeed: 300
-  maxSpeed: 10
+  thrustForce: 99
+  rotationSpeed: 150
+  maxSpeed: 120
   drag: 0
---- !u!114 &1193515339456575752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2133431311512941963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d619318b9c6a1147a951294a4e44eaa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Lives
-  maxLives: 1
-  playerPrefab: {fileID: 0}
-  spawnPoint: {fileID: 0}
-  respawnDelay: 3
-  livesText: {fileID: 0}
