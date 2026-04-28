@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 32259438}
   - component: {fileID: 32259437}
   - component: {fileID: 32259436}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 261567703}
   - component: {fileID: 261567702}
   - component: {fileID: 261567701}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platform (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -575,6 +575,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   speed: 6
+  jumpPower: 5
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &512086312
 GameObject:
   m_ObjectHideFlags: 3
@@ -895,7 +902,7 @@ GameObject:
   - component: {fileID: 928600250}
   - component: {fileID: 928600249}
   - component: {fileID: 928600248}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platform (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1275,7 +1282,7 @@ GameObject:
   - component: {fileID: 1502010116}
   - component: {fileID: 1502010115}
   - component: {fileID: 1502010114}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platform (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1414,7 +1421,7 @@ GameObject:
   - component: {fileID: 1531389606}
   - component: {fileID: 1531389605}
   - component: {fileID: 1531389607}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8285,7 +8292,7 @@ GameObject:
   - component: {fileID: 1666117205}
   - component: {fileID: 1666117204}
   - component: {fileID: 1666117207}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GROUND
   m_TagString: Untagged
   m_Icon: {fileID: 0}
