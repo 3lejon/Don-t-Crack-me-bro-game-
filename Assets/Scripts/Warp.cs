@@ -16,12 +16,21 @@ public class Warp : MonoBehaviour
         
     }
     
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            // Teleport the player to a new location
-             SceneManager.LoadScene("Stage1"); //
+            // Load the next scene in the build order
+            int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+            if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+            {
+                SceneManager.LoadScene(nextSceneIndex);
+            }
+            else
+            {
+                // Optional: Loop back to the first scene or handle end of game
+                SceneManager.LoadScene(0);
+            }
         }
     }
 }
