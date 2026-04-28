@@ -1,19 +1,22 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class Parallax : MonoBehaviour
 {
-    private MeshRenderer meshRenderer;
+   private float startPos;
+   public GameObject cam; 
+    public float parallaxEffect;
+    
 
-    public float animationspeed = 1f;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    private void Awake()
+    void start()
     {
-        meshRenderer = GetComponent<MeshRenderer>();
+        startPos = transform.position.x;
     }
-
-    // Update is called once per frame
-    void Update()
+    
+    void update()
     {
-        meshRenderer.material.mainTextureOffset += new Vector2(animationspeed * Time.deltaTime, 0);
+        float distance = cam.transform.position.x * parallaxEffect;
+        transform.position = new Vector3(startPos + distance, transform.position.y, transform.position.z);
     }
 }
