@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Warp : MonoBehaviour
 {
@@ -12,5 +14,14 @@ public class Warp : MonoBehaviour
     void Update()
     {
         
+    }
+    
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            // Teleport the player to a new location
+             SceneManager.LoadScene("stage1"); //loads the next level
+        }
     }
 }
