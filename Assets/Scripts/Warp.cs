@@ -21,7 +21,7 @@ public class Warp : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             // Teleport the player to a new location
-             SceneManager.LoadScene("stage1"); //loads the next level
+             SceneManager.LoadScene("Stage1"); //
         }
     }
 }
