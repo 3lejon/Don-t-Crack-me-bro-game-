@@ -70,4 +70,17 @@ public class PlayerMovement : MonoBehaviour
             SetDirection(activeSpriteRenderer);
         }
     }
+
+     void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Asteroid"))
+        {
+            // Player hit an asteroid = boom
+            if (Lives.Instance != null)
+            {
+                Lives.Instance.PlayerDied();
+            }
+            Destroy(gameObject);
+        }
+    }
 }
