@@ -1,37 +1,28 @@
 fileFormatVersion: 2
-guid: d0a3aeacf14cfad4087d131cc61dea31
+guid: 0cf5acd10a123194894ceca4e26fce78
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1857847638048803604
-    second: New Piskel penguin (2) (1)_0
+      213: -219959477314703068
+    second: New Piskel(5)_0
   - first:
-      213: 8539088214367574709
-    second: New Piskel penguin (2) (1)_1
+      213: -3089724209704251855
+    second: New Piskel(5)_1
   - first:
-      213: -8754855048984771063
-    second: New Piskel penguin (2) (1)_2
+      213: -1669083942980541393
+    second: New Piskel(5)_2
   - first:
-      213: 4459609871097938006
-    second: New Piskel penguin (2) (1)_3
+      213: -967036877679700415
+    second: New Piskel(5)_3
   - first:
-      213: 8977788106072417294
-    second: New Piskel penguin (2) (1)_4
+      213: -8984724530567249595
+    second: New Piskel(5)_4
   - first:
-      213: -8100048029825750521
-    second: New Piskel penguin (2) (1)_5
+      213: 8729129310858370752
+    second: New Piskel(5)_5
   - first:
-      213: -2672651989230020802
-    second: New Piskel penguin (2) (1)_6
-  - first:
-      213: 3351915519331814220
-    second: New Piskel penguin (2) (1)_7
-  - first:
-      213: 3482926959327717778
-    second: New Piskel penguin (2) (1)_8
-  - first:
-      213: -8127593599249648291
-    second: New Piskel penguin (2) (1)_9
+      213: 4513602714773414980
+    second: New Piskel(5)_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -140,221 +131,155 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: New Piskel penguin (2) (1)_0
+      name: New Piskel(5)_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 68
-        width: 11
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce47d4f9a699736e0800000000000000
-      internalID: -1857847638048803604
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: New Piskel penguin (2) (1)_1
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 65
-        width: 11
+        x: 0
+        y: 70
+        width: 28
         height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5ba9a1b2d7fe08670800000000000000
-      internalID: 8539088214367574709
+      spriteID: 4213da1550c82fcf0800000000000000
+      internalID: -219959477314703068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel penguin (2) (1)_2
+      name: New Piskel(5)_1
       rect:
         serializedVersion: 2
-        x: 74
-        y: 65
+        x: 40
+        y: 74
         width: 11
-        height: 15
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9064a39d7b1808680800000000000000
-      internalID: -8754855048984771063
+      spriteID: 13e47aa83381f15d0800000000000000
+      internalID: -3089724209704251855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel penguin (2) (1)_3
+      name: New Piskel(5)_2
       rect:
         serializedVersion: 2
-        x: 106
-        y: 68
+        x: 72
+        y: 74
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24265e3ff836d8e0800000000000000
+      internalID: -1669083942980541393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Piskel(5)_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 42
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146d23555156492f0800000000000000
+      internalID: -967036877679700415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Piskel(5)_4
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 42
         width: 11
-        height: 12
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6504e9bbc87b3ed30800000000000000
-      internalID: 4459609871097938006
+      spriteID: 5410dce74a8df4380800000000000000
+      internalID: -8984724530567249595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel penguin (2) (1)_4
+      name: New Piskel(5)_5
       rect:
         serializedVersion: 2
-        x: 11
-        y: 33
-        width: 11
-        height: 20
+        x: 77
+        y: 42
+        width: 12
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e046c2357b2879c70800000000000000
-      internalID: 8977788106072417294
+      spriteID: 0ced92cfbd8142970800000000000000
+      internalID: 8729129310858370752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel penguin (2) (1)_5
+      name: New Piskel(5)_6
       rect:
         serializedVersion: 2
-        x: 43
-        y: 33
-        width: 11
-        height: 20
+        x: 14
+        y: 10
+        width: 10
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 70a22a69b39d69f80800000000000000
-      internalID: -8100048029825750521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: New Piskel penguin (2) (1)_6
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 33
-        width: 11
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e3714b51d25d8ead0800000000000000
-      internalID: -2672651989230020802
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: New Piskel penguin (2) (1)_7
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 33
-        width: 11
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c4b44e6d765648e20800000000000000
-      internalID: 3351915519331814220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: New Piskel penguin (2) (1)_8
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 4
-        width: 11
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2992c5dbd97d55030800000000000000
-      internalID: 3482926959327717778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: New Piskel penguin (2) (1)_9
-      rect:
-        serializedVersion: 2
-        x: 107
-        y: 16
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d557cfdeeacf43f80800000000000000
-      internalID: -8127593599249648291
+      spriteID: 444ee4741c983ae30800000000000000
+      internalID: 4513602714773414980
       vertices: []
       indices: 
       edges: []
@@ -363,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f732be59c20407447aeae7d1c3be4a74
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -371,20 +296,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      New Piskel penguin (2) (1)_0: -1857847638048803604
-      New Piskel penguin (2) (1)_1: 8539088214367574709
-      New Piskel penguin (2) (1)_2: -8754855048984771063
-      New Piskel penguin (2) (1)_3: 4459609871097938006
-      New Piskel penguin (2) (1)_4: 8977788106072417294
-      New Piskel penguin (2) (1)_5: -8100048029825750521
-      New Piskel penguin (2) (1)_6: -2672651989230020802
-      New Piskel penguin (2) (1)_7: 3351915519331814220
-      New Piskel penguin (2) (1)_8: 3482926959327717778
-      New Piskel penguin (2) (1)_9: -8127593599249648291
+      New Piskel(5)_0: -219959477314703068
+      New Piskel(5)_1: -3089724209704251855
+      New Piskel(5)_2: -1669083942980541393
+      New Piskel(5)_3: -967036877679700415
+      New Piskel(5)_4: -8984724530567249595
+      New Piskel(5)_5: 8729129310858370752
+      New Piskel(5)_6: 4513602714773414980
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

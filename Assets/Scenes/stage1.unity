@@ -221,7 +221,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 56.4, y: 7.7, z: 0}
-  m_LocalScale: {x: 9, y: 9, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -393,9 +393,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AsteroidSpawner
   asteroidPrefab: {fileID: 5011061310016344665, guid: 20b412c087317114d91a092d237ac93a, type: 3}
-  spawnRate: 10
+  spawnRate: 15
   spawnDistance: 40
-  asteroidLifetime: 20
+  asteroidLifetime: 9
 --- !u!4 &921901010
 Transform:
   m_ObjectHideFlags: 0
@@ -703,7 +703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AsteroidSpawner
   asteroidPrefab: {fileID: 2399023999137298181, guid: a3bcc8638c447ed4c80f614cf12bd20f, type: 3}
   spawnRate: 1
-  spawnDistance: 29
+  spawnDistance: 80
   asteroidLifetime: 15
 --- !u!4 &1717897142
 Transform:
@@ -803,10 +803,18 @@ PrefabInstance:
     - target: {fileID: 1748550728893499214, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 3313733511368546993, guid: 01beb6372080cc340acb37b238ce7310, type: 3}
+      objectReference: {fileID: -219959477314703068, guid: 0cf5acd10a123194894ceca4e26fce78, type: 3}
     - target: {fileID: 2133431311512941963, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3762096901411970572, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
+      propertyPath: maxSpeed
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 3762096901411970572, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
+      propertyPath: thrustForce
+      value: 299
       objectReference: {fileID: 0}
     - target: {fileID: 7862701559615577517, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
       propertyPath: m_Size.x

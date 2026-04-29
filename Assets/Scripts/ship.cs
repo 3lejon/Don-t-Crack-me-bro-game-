@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
 
     void HandleThrust()
     {
-        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.D))
         {
             Vector2 force = transform.up * thrustForce;
             rb.AddForce(force);
