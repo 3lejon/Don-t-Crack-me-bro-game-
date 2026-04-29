@@ -8854,6 +8854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2240765110525648479, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3505817141835341872, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
       propertyPath: speed
       value: 9
@@ -8905,6 +8909,26 @@ PrefabInstance:
     - target: {fileID: 3814867537705497287, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5846705163602246465, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6154610176850920849, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6154610176850920849, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416643207817068512, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416643207817068512, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
