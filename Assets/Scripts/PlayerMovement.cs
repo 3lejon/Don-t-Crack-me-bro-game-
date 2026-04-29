@@ -43,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
 
         // Horizontal movement (same as your first script)
-        body.velocity = new Vector2(horizontal * speed, body.velocity.y);
+        body.linearVelocity = new Vector2(horizontal * speed, body.linearVelocity.y);
 
         // Jump cooldown timer
         if (jumpTimer > 0f)
@@ -52,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
         // Jump
         if (Input.GetKeyDown(inputJump) && jumpTimer <= 0f)
         {
-            body.velocity = new Vector2(body.velocity.x, jumpForce);
+            body.linearVelocity = new Vector2(body.linearVelocity.x, jumpForce);
             jumpTimer = jumpCooldown;
             SetDirection(spriteRendererJump);
         }
