@@ -73,7 +73,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 16, y: 16}
+    oldSize: {x: 2.8, y: 2}
     newSize: {x: 6.2, y: 2.8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -130,7 +130,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 3313733511368546993, guid: 01beb6372080cc340acb37b238ce7310, type: 3}
+  m_Sprite: {fileID: -219959477314703068, guid: 0cf5acd10a123194894ceca4e26fce78, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -179,7 +179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfeb5f981a068a349b05e891adb834cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  thrustForce: 99
+  thrustForce: 299
   rotationSpeed: 150
-  maxSpeed: 120
+  maxSpeed: 300
   drag: 0
