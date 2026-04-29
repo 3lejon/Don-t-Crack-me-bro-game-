@@ -1,62 +1,73 @@
 ﻿using UnityEngine;
- 
+
 public class PlayerMovement : MonoBehaviour
-{ 
-    [SerializeField] private float speed;
+{
+    [Header("Movement")]
+    [SerializeField] private float speed = 5f;
+    [SerializeField] private float jumpForce = 10f;
     [SerializeField] private float jumpCooldown = 0.5f;
-    [SerializeField] private float jumpForce;
     [SerializeField] private KeyCode inputJump = KeyCode.Space;
     [SerializeField] private KeyCode inputLeft = KeyCode.A;
     [SerializeField] private KeyCode inputRight = KeyCode.D;
+
     private Rigidbody2D body;
     private float jumpTimer;
 
-    [Header("Sprites")]// These variables are related to the different sprite renderers for each direction of movement
-   
+    [Header("Sprites")]
     public AnimatedSpriteRenderer spriteRendererJump;
     public AnimatedSpriteRenderer spriteRendererLeft;
     public AnimatedSpriteRenderer spriteRendererRight;
-     public AnimatedSpriteRenderer spriteRendererDeath;
+    public AnimatedSpriteRenderer spriteRendererDeath;
+
     private AnimatedSpriteRenderer activeSpriteRenderer;
- 
+
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
+        activeSpriteRenderer = spriteRendererRight; // default
     }
- 
-    private void SetDirection(Vector2 direction, AnimatedSpriteRenderer spriteRenderer)
+
+    private void SetDirection(AnimatedSpriteRenderer spriteRenderer)
     {
         if (activeSpriteRenderer != null)
             activeSpriteRenderer.enabled = false;
+
         activeSpriteRenderer = spriteRenderer;
+
         if (activeSpriteRenderer != null)
             activeSpriteRenderer.enabled = true;
     }
- 
+
     private void Update()
     {
         float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
-        body.linearVelocity = new Vector2(horizontal * speed, vertical * speed);
+
+        // Horizontal movement (same as your first script)
+        body.velocity = new Vector2(horizontal * speed, body.velocity.y);
+
+        // Jump cooldown timer
         if (jumpTimer > 0f)
             jumpTimer -= Time.deltaTime;
-        if (Input.GetKeyDown(KeyCode.Space) && jumpTimer <= 0f)
+
+        // Jump
+        if (Input.GetKeyDown(inputJump) && jumpTimer <= 0f)
         {
-            body.linearVelocity = new Vector2(body.linearVelocity.x, jumpForce);
+            body.velocity = new Vector2(body.velocity.x, jumpForce);
             jumpTimer = jumpCooldown;
-            SetDirection(Vector2.up, spriteRendererJump);
+            SetDirection(spriteRendererJump);
         }
         else if (Input.GetKey(inputLeft))
         {
-            SetDirection(Vector2.left, spriteRendererLeft);
+            SetDirection(spriteRendererLeft);
         }
         else if (Input.GetKey(inputRight))
         {
-            SetDirection(Vector2.right, spriteRendererRight);
+            SetDirection(spriteRendererRight);
         }
         else
         {
-            SetDirection(Vector2.zero, activeSpriteRenderer);
+            // Idle keeps last direction sprite
+            SetDirection(activeSpriteRenderer);
         }
     }
 }
