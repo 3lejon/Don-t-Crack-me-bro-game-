@@ -589,7 +589,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 55.17396, y: 15.11222, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -786,7 +786,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 55.17396, y: 15.11222, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 518634816}
@@ -800,29 +800,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1748550728893499214, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -219959477314703068, guid: 0cf5acd10a123194894ceca4e26fce78, type: 3}
     - target: {fileID: 2133431311512941963, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 3762096901411970572, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
-      propertyPath: maxSpeed
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 3762096901411970572, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
-      propertyPath: thrustForce
-      value: 299
+    - target: {fileID: 7862701559615577517, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
+      propertyPath: m_Size.x
+      value: 7.2333336
       objectReference: {fileID: 0}
     - target: {fileID: 7862701559615577517, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 2.8
+      propertyPath: m_Size.y
+      value: 24.48902
       objectReference: {fileID: 0}
     - target: {fileID: 7862701559615577517, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2
+      propertyPath: m_Offset.x
+      value: 3.736288
+      objectReference: {fileID: 0}
+    - target: {fileID: 7862701559615577517, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
+      propertyPath: m_Offset.y
+      value: 1.1188183
       objectReference: {fileID: 0}
     - target: {fileID: 8778456841387708609, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
       propertyPath: m_LocalPosition.x
