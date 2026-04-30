@@ -162,8 +162,8 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_AngularDamping: 0.5
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -233,9 +233,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7ba927369a5df040a52ae093df120cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  speed: 11
-  jumpForce: 16
-  jumpCooldown: 3
+  speed: 5
+  jumpForce: 10
+  jumpCooldown: 0.5
   inputJump: 32
   inputLeft: 97
   inputRight: 100
