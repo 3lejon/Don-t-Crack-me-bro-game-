@@ -1022,7 +1022,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -11, y: -8.4, z: -10}
-  m_LocalScale: {x: 0.2428125, y: 0.24, z: 1}
+  m_LocalScale: {x: 11, y: 11, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 512086313}
@@ -2026,7 +2026,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -11, y: -8.4, z: -10}
-  m_LocalScale: {x: 0.2428125, y: 0.24000001, z: 1}
+  m_LocalScale: {x: 1.8739053, y: 2.4120002, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2493,38 +2493,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 2050590687051410654, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
-      propertyPath: m_Size.x
-      value: 1.6129875
-      objectReference: {fileID: 0}
-    - target: {fileID: 2050590687051410654, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
-      propertyPath: m_Size.y
-      value: 2.240738
-      objectReference: {fileID: 0}
-    - target: {fileID: 2050590687051410654, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.07904053
-      objectReference: {fileID: 0}
-    - target: {fileID: 2050590687051410654, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.29663754
-      objectReference: {fileID: 0}
-    - target: {fileID: 3505817141835341872, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
-      propertyPath: speed
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3505817141835341872, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
-      propertyPath: jumpCooldown
-      value: 0.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 3814867537705497287, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3814867537705497287, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3814867537705497287, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11
@@ -2575,12 +2543,12 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1738432541}
+  - {fileID: 965977570}
   - {fileID: 1766872642}
   - {fileID: 6983413992066334913}
   - {fileID: 4817514714360030648}
   - {fileID: 1441035371}
   - {fileID: 619394802}
-  - {fileID: 965977570}
   - {fileID: 1179319365}
   - {fileID: 2758983572820723313}
   - {fileID: 1343742207}
