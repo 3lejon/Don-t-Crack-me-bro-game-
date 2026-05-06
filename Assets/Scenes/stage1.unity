@@ -392,7 +392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa5e9366113b5d5469c53325e48f1f40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AsteroidSpawner
-  asteroidPrefab: {fileID: 5011061310016344665, guid: 20b412c087317114d91a092d237ac93a, type: 3}
+  asteroidPrefab: {fileID: 3287002790676317189, guid: efe00aa55ace293439b1a6f51e832ca0, type: 3}
   spawnRate: 15
   spawnDistance: 70
   asteroidLifetime: 8

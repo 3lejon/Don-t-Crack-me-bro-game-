@@ -945,7 +945,7 @@ PrefabInstance:
     - target: {fileID: 4033414925516658387, guid: 20b412c087317114d91a092d237ac93a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 346749585833533959, guid: 9febd5cb78a2bd4439eb5a520fa6a053, type: 3}
+      objectReference: {fileID: 6557475943195938292, guid: be09bff22d8b64148840960ea6339eb1, type: 3}
     - target: {fileID: 5011061310016344665, guid: 20b412c087317114d91a092d237ac93a, type: 3}
       propertyPath: m_Name
       value: portal
@@ -1333,7 +1333,7 @@ PrefabInstance:
     - target: {fileID: 4033414925516658387, guid: 20b412c087317114d91a092d237ac93a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 346749585833533959, guid: 9febd5cb78a2bd4439eb5a520fa6a053, type: 3}
+      objectReference: {fileID: 6557475943195938292, guid: be09bff22d8b64148840960ea6339eb1, type: 3}
     - target: {fileID: 5011061310016344665, guid: 20b412c087317114d91a092d237ac93a, type: 3}
       propertyPath: m_Name
       value: portal
@@ -1344,7 +1344,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8281693299495666498, guid: 20b412c087317114d91a092d237ac93a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 140.2
+      value: 136.6
       objectReference: {fileID: 0}
     - target: {fileID: 8281693299495666498, guid: 20b412c087317114d91a092d237ac93a, type: 3}
       propertyPath: m_LocalPosition.z
