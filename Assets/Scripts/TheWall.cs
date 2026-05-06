@@ -17,12 +17,12 @@ public class TheWall : MonoBehaviour
     // Update is called once per frame
     void Update()
 {
-    if (Time.time >= 6f && Time.time < 20f)
+    if (Time.time >= 20f && Time.time < 50f)
     {
         currentSpeed += acceleration * Time.deltaTime;
         velocity = new Vector2(currentSpeed, 0);
     }
-    else if (Time.time >= 20f)
+    else if (Time.time >= 50f)
     {
         velocity = Vector2.zero;
     }
