@@ -16,16 +16,17 @@ public class TheWall : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+{
+    if (Time.time >= 6f && Time.time < 20f)
     {
-        if (Time.time >= 6f)
-        {
-            currentSpeed += acceleration * Time.deltaTime;
-            velocity = new Vector2(currentSpeed, 0);
-        }
-        transform.Translate(velocity * Time.deltaTime); 
-        else if (Time.time >= 20f)
-        {
-            velocity = Vector2.zero; // stops movement
-            }
+        currentSpeed += acceleration * Time.deltaTime;
+        velocity = new Vector2(currentSpeed, 0);
     }
+    else if (Time.time >= 20f)
+    {
+        velocity = Vector2.zero;
+    }
+
+    transform.Translate(velocity * Time.deltaTime);
+}
 }
