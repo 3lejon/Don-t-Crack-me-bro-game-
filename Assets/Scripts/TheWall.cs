@@ -22,7 +22,7 @@ public class TheWall : MonoBehaviour
         if (Time.time >= 20f)
         {
             wallCollider.enabled = false;
-            if (Time.time < 50f)
+            if (Time.time < 80f)
             {
                 currentSpeed += acceleration * Time.deltaTime;
                 velocity = new Vector2(currentSpeed, 0);
