@@ -117,7 +117,7 @@ MonoBehaviour:
   thrustForce: 8
   rotationSpeed: 300
   maxSpeed: 10
-  drag: 0.95
+  drag: 0
   bulletPrefab: {fileID: 0}
   bulletSpeed: 15
   bulletLifetime: 3
