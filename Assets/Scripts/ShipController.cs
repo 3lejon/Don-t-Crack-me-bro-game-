@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class ShipController : MonoBehaviour
 {
     [Header("Movement Settings")]
     public float thrustForce = 8f;       // Forward thrust

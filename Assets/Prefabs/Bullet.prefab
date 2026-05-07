@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7102779523423750638}
   - component: {fileID: 7654261768048679292}
   - component: {fileID: 6135671859375485567}
+  - component: {fileID: -3536006079545233267}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -138,3 +139,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-3536006079545233267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5188496275720805087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70a10ae9a1ee8b04aafa78b80e696c71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::bullet
+  bulletLifetime: 1
+  moveSpeed: 20
+  damage: 1
