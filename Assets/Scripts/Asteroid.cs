@@ -33,23 +33,31 @@ public class Asteroid : MonoBehaviour
 
     private void DestroyAsteroid()
     {
-         Destroy(gameObject);
+        if (ScoreManager.Instance != null)
+        {
+            ScoreManager.Instance.addscore(10);
+        }
+
+        Destroy(gameObject);
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Bullet"))
         {
-            
+            // Add score for bullet hit on asteroid
+            if (ScoreManager.Instance != null)
+            {
+                ScoreManager.Instance.addscore(10);
             }
 
             // Damage asteroid and destroy bullet
             TakeDamage(1);
             Destroy(other.gameObject);
+        }
     }
-    
-
 }
+
    
 
     
