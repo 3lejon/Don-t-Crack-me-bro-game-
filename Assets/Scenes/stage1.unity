@@ -580,6 +580,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8778456841387708609, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
   m_PrefabInstance: {fileID: 8124284010211844685}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1612076287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612076282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd30c0a163345ea499cf3717f7b34564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShipController
+  thrustForce: 60
+  rotationSpeed: 150
+  maxSpeed: 80
+  drag: 0.95
+  bulletPrefab: {fileID: 0}
+  bulletSpeed: 15
+  bulletLifetime: 3
+  shootCooldown: 0.2
 --- !u!1 &1695058855
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,7 +905,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2133431311512941963, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
       propertyPath: m_Name
-      value: Player
+      value: ship
+      objectReference: {fileID: 0}
+    - target: {fileID: 3762096901411970572, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7862701559615577517, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
       propertyPath: m_Size.x
@@ -951,10 +975,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3762096901411970572, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2133431311512941963, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1612076287}
   m_SourcePrefab: {fileID: 100100000, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
