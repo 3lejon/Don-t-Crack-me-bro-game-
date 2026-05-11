@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: 1748550728893499214, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -7417702829573440460, guid: f38da04ad414f1e4d9daa6b9f9a6730a, type: 3}
+      objectReference: {fileID: -4905138680358436287, guid: 3d65d6ac06fe5644ca81ec35c1e9a98b, type: 3}
     - target: {fileID: 2133431311512941963, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
       propertyPath: m_Name
       value: Ship Variant
@@ -34,11 +34,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7862701559615577517, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 4.2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7862701559615577517, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 6.2
+      value: 5.6
       objectReference: {fileID: 0}
     - target: {fileID: 8778456841387708609, guid: a78cb3f0345ac46499eaae71a9b0ce15, type: 3}
       propertyPath: m_LocalScale.x
@@ -114,11 +114,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd30c0a163345ea499cf3717f7b34564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShipController
-  thrustForce: 8
-  rotationSpeed: 300
-  maxSpeed: 10
-  drag: 0
-  bulletPrefab: {fileID: 0}
+  thrustForce: 40
+  rotationSpeed: 150
+  maxSpeed: 60
+  drag: 0.95
+  bulletPrefab: {fileID: 5188496275720805087, guid: 6d5e60b0390df9c4fba231b458bd6449, type: 3}
   bulletSpeed: 15
   bulletLifetime: 3
   shootCooldown: 0.2
