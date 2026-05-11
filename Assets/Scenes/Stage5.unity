@@ -240,7 +240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AsteroidSpawner
   asteroidPrefab: {fileID: 2399023999137298181, guid: a3bcc8638c447ed4c80f614cf12bd20f, type: 3}
-  spawnRate: 7
+  spawnRate: 10
   spawnDistance: 15
   asteroidLifetime: 45
 --- !u!4 &181672140
@@ -498,7 +498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AsteroidSpawner
   asteroidPrefab: {fileID: 5331390627616212916, guid: d9b17e2f35b35f64ea278ac142d358a8, type: 3}
-  spawnRate: 6
+  spawnRate: 12
   spawnDistance: 60
   asteroidLifetime: 30
 --- !u!4 &347857268
@@ -611,7 +611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AsteroidSpawner
   asteroidPrefab: {fileID: 1116410131284348332, guid: 4ff0edcc5447cda46b67ea769a958505, type: 3}
-  spawnRate: 4
+  spawnRate: 6
   spawnDistance: 15
   asteroidLifetime: 70
 --- !u!4 &813755243
