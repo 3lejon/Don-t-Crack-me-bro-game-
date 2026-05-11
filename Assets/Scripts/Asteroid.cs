@@ -3,7 +3,7 @@ using UnityEngine;
 public class Asteroid : MonoBehaviour
 {
     public float moveSpeed = 2f;
-    public int maxHealth = 3;
+    public int maxHealth = 5;
     public int scoreForDestroy = 10;
 
     private Vector2 velocity;
