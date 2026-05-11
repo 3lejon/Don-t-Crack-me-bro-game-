@@ -977,7 +977,7 @@ GameObject:
   - component: {fileID: 1779006281}
   m_Layer: 0
   m_Name: Boss
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1054,9 +1054,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FollowPlayer
   player: {fileID: 256096191}
-  moveSpeed: 15
-  rotationSpeed: 0
-  stopDistance: 0
+  moveSpeed: 30
   maxHealth: 30
 --- !u!61 &1779006283
 BoxCollider2D:
@@ -1130,7 +1128,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!4 &1779006285
 Transform:
   m_ObjectHideFlags: 0

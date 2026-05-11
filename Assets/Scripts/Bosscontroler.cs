@@ -16,7 +16,7 @@ public class FollowPlayer : MonoBehaviour
     {
         if (player == null) return;
 
-        float distance = Vector3.Distance(transform.position, player.position);   
+        float distance = Vector2.Distance(transform.position, player.position);   
     }
 
     public void TakeDamage(int damage)
