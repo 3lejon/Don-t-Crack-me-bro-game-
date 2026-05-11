@@ -33,11 +33,6 @@ public class Asteroid : MonoBehaviour
 
     private void DestroyAsteroid()
     {
-        if (ScoreManager.Instance != null)
-        {
-            ScoreManager.Instance.addscore(10);
-        }
-
         Destroy(gameObject);
     }
 
@@ -45,12 +40,6 @@ public class Asteroid : MonoBehaviour
     {
         if (other.CompareTag("Bullet"))
         {
-            // Add score for bullet hit on asteroid
-            if (ScoreManager.Instance != null)
-            {
-                ScoreManager.Instance.addscore(10);
-            }
-
             // Damage asteroid and destroy bullet
             TakeDamage(1);
             Destroy(other.gameObject);
