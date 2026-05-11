@@ -3,9 +3,6 @@ public class FollowPlayer : MonoBehaviour
 { 
     public Transform player;
     public float moveSpeed = 3f;
-    public float rotationSpeed = 5f;
-    public float stopDistance = 2f;
-
     public int maxHealth = 30;
 
     private int currentHealth;
