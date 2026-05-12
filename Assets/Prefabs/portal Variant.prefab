@@ -11,18 +11,18 @@ PrefabInstance:
     - target: {fileID: 4033414925516658387, guid: 20b412c087317114d91a092d237ac93a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 346749585833533959, guid: 9febd5cb78a2bd4439eb5a520fa6a053, type: 3}
+      objectReference: {fileID: 1690716334807945154, guid: 56a8e72fea0c02740aa9e3bef6bb840b, type: 3}
     - target: {fileID: 5011061310016344665, guid: 20b412c087317114d91a092d237ac93a, type: 3}
       propertyPath: m_Name
       value: portal Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7230537433133168948, guid: 20b412c087317114d91a092d237ac93a, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 3.5555556
+      value: 3.2222223
       objectReference: {fileID: 0}
     - target: {fileID: 7230537433133168948, guid: 20b412c087317114d91a092d237ac93a, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 3.5555556
+      value: 3.3333333
       objectReference: {fileID: 0}
     - target: {fileID: 8281693299495666498, guid: 20b412c087317114d91a092d237ac93a, type: 3}
       propertyPath: m_LocalPosition.x
