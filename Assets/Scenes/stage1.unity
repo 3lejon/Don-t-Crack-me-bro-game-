@@ -204,8 +204,8 @@ Transform:
   m_GameObject: {fileID: 28654768}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -57, y: -45, z: 10}
-  m_LocalScale: {x: 45, y: 30, z: 1}
+  m_LocalPosition: {x: 0.496, y: -2.929, z: 10}
+  m_LocalScale: {x: 40.65423, y: 18.769588, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1718010059}
@@ -666,7 +666,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.73402864, y: 0.368711}
+  m_Offset: {x: 0.76752067, y: 0.38545704}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -676,7 +676,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.3435172, y: 4.8625784}
+  m_Size: {x: 1.2765331, y: 4.8960705}
   m_EdgeRadius: 0
 --- !u!212 &1501266986
 SpriteRenderer:
@@ -725,7 +725,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_MaskInteraction: 0
   m_Sprite: {fileID: -4905138680358436287, guid: 3d65d6ac06fe5644ca81ec35c1e9a98b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -749,7 +749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd30c0a163345ea499cf3717f7b34564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShipController
-  thrustForce: 40
+  thrustForce: 30
   rotationSpeed: 150
   maxSpeed: 60
   drag: 0.95
