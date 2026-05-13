@@ -13,6 +13,7 @@ public class Lives : MonoBehaviour
 
     [Header("UI")]
     public UnityEngine.UI.Text livesText; // Assign a UI Text component
+    public Gameover gameOverScreen; // Assign the Gameover UI controller here
 
     private int currentLives; 
     private GameObject currentPlayer; 
@@ -33,7 +34,6 @@ public class Lives : MonoBehaviour
     void Start()
     {
         currentLives = maxLives;
-       
     }
 
     public void PlayerDied()
@@ -52,9 +52,16 @@ public class Lives : MonoBehaviour
     }
 
     void GameOver()
-    {        Debug.Log("Game Over!");
-        // add game over UI, restart scene, etc. later
-        // For now, reload the scene
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    {
+        Debug.Log("Game Over!");
+
+        if (gameOverScreen != null)
+        {
+            gameOverScreen.ShowGameOver();
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 }
