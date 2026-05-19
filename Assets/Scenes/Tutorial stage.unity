@@ -1994,6 +1994,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 934121198357946866, guid: 61898aa17cd36774b8dc2050b90f406b, type: 3}
+      propertyPath: m_fontSize
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 934121198357946866, guid: 61898aa17cd36774b8dc2050b90f406b, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 3564996541810665519, guid: 61898aa17cd36774b8dc2050b90f406b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2001,6 +2009,14 @@ PrefabInstance:
     - target: {fileID: 3842930856921300857, guid: 61898aa17cd36774b8dc2050b90f406b, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4842526801345907935, guid: 61898aa17cd36774b8dc2050b90f406b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -264
+      objectReference: {fileID: 0}
+    - target: {fileID: 4842526801345907935, guid: 61898aa17cd36774b8dc2050b90f406b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 4964262161172238690, guid: 61898aa17cd36774b8dc2050b90f406b, type: 3}
       propertyPath: m_Pivot.x
@@ -2082,6 +2098,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5010580823615499612, guid: 61898aa17cd36774b8dc2050b90f406b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -267
+      objectReference: {fileID: 0}
+    - target: {fileID: 5010580823615499612, guid: 61898aa17cd36774b8dc2050b90f406b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 107
+      objectReference: {fileID: 0}
     - target: {fileID: 5776486428119021528, guid: 61898aa17cd36774b8dc2050b90f406b, type: 3}
       propertyPath: m_Type
       value: 0
@@ -2093,6 +2117,14 @@ PrefabInstance:
     - target: {fileID: 5776486428119021528, guid: 61898aa17cd36774b8dc2050b90f406b, type: 3}
       propertyPath: m_Color.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256449499831164583, guid: 61898aa17cd36774b8dc2050b90f406b, type: 3}
+      propertyPath: m_fontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6256449499831164583, guid: 61898aa17cd36774b8dc2050b90f406b, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
