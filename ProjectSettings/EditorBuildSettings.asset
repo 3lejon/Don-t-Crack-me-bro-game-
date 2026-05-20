@@ -18,10 +18,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Void.unity
     guid: c0a0ddc66cf62224ea9afabbc58b095b
   - enabled: 1
-    path: Assets/Scenes/Pantry.unity
+    path: Assets/Scenes/Oven.unity
     guid: c78bd52fe6d6cdc43816881553497b91
   - enabled: 1
-    path: Assets/Scenes/Oven.unity
+    path: Assets/Scenes/Menu.unity
     guid: d587f113a85688b458149d4b4b5241a7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
