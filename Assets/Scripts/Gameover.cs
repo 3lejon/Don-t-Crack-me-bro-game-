@@ -40,6 +40,6 @@ public class Gameover : MonoBehaviour
 
     public void QuitToMainMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Menu");
     }
 }
