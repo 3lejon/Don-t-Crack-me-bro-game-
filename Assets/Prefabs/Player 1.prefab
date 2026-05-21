@@ -106,8 +106,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AnimatedSpriteRenderer
   idleSprite: {fileID: -7538580355346469339, guid: d7af200e033bfb043a07c5acecdfe53a, type: 3}
   animationSprites:
-  - {fileID: -6995280227646584463, guid: d7af200e033bfb043a07c5acecdfe53a, type: 3}
   - {fileID: -1235692799304966074, guid: d7af200e033bfb043a07c5acecdfe53a, type: 3}
+  - {fileID: -6995280227646584463, guid: d7af200e033bfb043a07c5acecdfe53a, type: 3}
   animationTime: 0.25
   loop: 1
   idle: 0
@@ -347,10 +347,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa2dbed33c2218546a1ce2f53720f098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimatedSpriteRenderer
-  idleSprite: {fileID: -1669083942980541393, guid: 0cf5acd10a123194894ceca4e26fce78, type: 3}
+  idleSprite: {fileID: -7538580355346469339, guid: d7af200e033bfb043a07c5acecdfe53a, type: 3}
   animationSprites:
-  - {fileID: -1669083942980541393, guid: 0cf5acd10a123194894ceca4e26fce78, type: 3}
-  - {fileID: -1669083942980541393, guid: 0cf5acd10a123194894ceca4e26fce78, type: 3}
+  - {fileID: -7538580355346469339, guid: d7af200e033bfb043a07c5acecdfe53a, type: 3}
+  - {fileID: -7538580355346469339, guid: d7af200e033bfb043a07c5acecdfe53a, type: 3}
   animationTime: 0.25
   loop: 1
   idle: 0
