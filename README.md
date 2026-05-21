@@ -47,5 +47,4 @@ Rage quitting
 Desk slamming
 Sudden bursts of determination
 
-Play at your own risk.
 Visit https://3lejon.itch.io/ to download the game
