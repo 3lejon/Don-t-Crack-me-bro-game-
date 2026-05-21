@@ -470,7 +470,7 @@ Transform:
   m_GameObject: {fileID: 404471108}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.1031, y: 0.0643, z: 10}
+  m_LocalPosition: {x: -0.11, y: -0.07, z: 10}
   m_LocalScale: {x: 1.8567005, y: 0.8840978, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -781,7 +781,7 @@ Transform:
   m_GameObject: {fileID: 837841465}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.62, y: -4.04, z: -10}
+  m_LocalPosition: {x: -6.9, y: -4.36, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1117,7 +1117,7 @@ Transform:
   m_GameObject: {fileID: 1052770775}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.62, y: -4.04, z: -10}
+  m_LocalPosition: {x: -6.9, y: -4.36, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1814,11 +1814,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3814867537705497287, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.62
+      value: -6.9
       objectReference: {fileID: 0}
     - target: {fileID: 3814867537705497287, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.04
+      value: -4.36
       objectReference: {fileID: 0}
     - target: {fileID: 3814867537705497287, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1851,6 +1851,10 @@ PrefabInstance:
     - target: {fileID: 3814867537705497287, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5846705163602246465, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9086290749489111818, guid: 9021e743ba72e2e4eb478d4a7eecca14, type: 3}
       propertyPath: m_GravityScale
