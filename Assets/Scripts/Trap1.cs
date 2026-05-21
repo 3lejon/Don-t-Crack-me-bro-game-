@@ -6,7 +6,7 @@ public class PlatformUp : MonoBehaviour
   
     void Update()
     {
-    
+    //moves the platform up at a constant speed
         transform.Translate(Vector3.up * speed * Time.deltaTime);
     }
 }

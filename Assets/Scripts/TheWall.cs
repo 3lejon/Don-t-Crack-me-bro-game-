@@ -18,7 +18,7 @@ public class TheWall : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   //after 20 seconds the wall acelerataes and turns of collider, and after 80 seconds hard stops
         if (Time.time >= 20f)
         {
             wallCollider.enabled = false;

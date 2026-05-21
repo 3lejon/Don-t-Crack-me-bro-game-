@@ -70,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
             SetDirection(activeSpriteRenderer);
         }
     }
-
+// if player hist asteroid = boom
      void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Asteroid"))

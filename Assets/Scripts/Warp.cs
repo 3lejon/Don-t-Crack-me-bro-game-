@@ -28,7 +28,7 @@ public class Warp : MonoBehaviour
             }
             else
             {
-                // Optional: Loop back to the first scene or handle end of game
+                // Loop back to the first scene to handle end of game
                 SceneManager.LoadScene(0);
             }
         }

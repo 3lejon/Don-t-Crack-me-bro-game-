@@ -16,7 +16,7 @@ public class Gameover : MonoBehaviour
             gameOverPanel.SetActive(false);
         }
     }
-
+// Call this method to display the game over screen with a custom message
     public void ShowGameOver()
     {
         if (gameOverPanel == null)
@@ -32,7 +32,7 @@ public class Gameover : MonoBehaviour
 
         gameOverPanel.SetActive(true);
     }
-
+// place this snipet on button to restart level or quit to main menu
     public void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
