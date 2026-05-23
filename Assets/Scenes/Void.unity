@@ -715,6 +715,10 @@ PrefabInstance:
       propertyPath: m_text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3451019600137217557, guid: 61898aa17cd36774b8dc2050b90f406b, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3564996541810665519, guid: 61898aa17cd36774b8dc2050b90f406b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -813,7 +817,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5010580823615499612, guid: 61898aa17cd36774b8dc2050b90f406b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 220
+      value: 133
       objectReference: {fileID: 0}
     - target: {fileID: 6136837704273502506, guid: 61898aa17cd36774b8dc2050b90f406b, type: 3}
       propertyPath: m_IsActive
