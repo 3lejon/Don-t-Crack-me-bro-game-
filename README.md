@@ -1,6 +1,9 @@
 
 
-https://github.com/user-attachments/assets/322b8721-6dc6-466b-b922-8f66feae4cf4
+
+https://github.com/user-attachments/assets/697e5da5-73a0-4f2c-ac5f-4d89d091ebb2
+
+
 
 🎮 Don’t Cack Me Bro
 Don’t Cack Me Bro is an action-packed rage platformer inspired by the golden era of classic Flash games.
@@ -15,6 +18,8 @@ This game is designed to capture the nostalgic feel of old-school browser rage g
 🎨 Sprites created using Piskel
 😈 Ridiculously unfair levels designed to push your limits
 🧠 Tight Jumps requiring patience
+
+
 🧗 Rage-inducing wall hops that demand skill and patience
 🎵 Original self-made soundtrack
 
@@ -47,4 +52,4 @@ Rage quitting
 Desk slamming
 Sudden bursts of determination
 
-Visit https://3lejon.itch.io/ to download the game
+Visit [https://3lejon.itch.io/](https://3lejon.itch.io/dont-crack-me-bro) to download the game
